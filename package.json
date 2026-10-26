@@ -1,0 +1,23 @@
+{
+  "name": "qmaoball-deploy",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=22.13.0 <23"
+  },
+  "dependencies": {
+    "@trpc/server": "11.13.4",
+    "cookie": "1.0.2",
+    "dotenv": "17.2.2",
+    "drizzle-orm": "0.45.4",
+    "express": "4.22.3",
+    "jose": "6.1.0",
+    "mysql2": "3.24.6",
+    "superjson": "1.13.3",
+    "zod": "4.6.7"
+  }
+}
